@@ -174,3 +174,22 @@ section.news {
 
     }
 }
+
+/**
+ * Animação
+ */
+
+@media(min-width: 1000px) {
+    .luzes {
+        width: 260px;
+        height: 260px;
+        opacity: 1;
+        position: absolute;
+        top: 195px;
+        left: 381px;
+        border-radius: 130px;
+        -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+        animation: mymove 5s infinite;
+    }
+}
+
